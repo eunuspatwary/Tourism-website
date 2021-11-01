@@ -11,6 +11,18 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
+                        src={image03}
+                        alt="Third slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>Butan Mountaing</h3>
+                        <p>All adventure lover going this place</p>
+
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
                         src={image01}
                         alt="First slide"
                     />
@@ -19,28 +31,16 @@ const Banner = () => {
                         <p>Islamabad city is a beautiful city </p>
                     </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src={image02}
                         alt="Second slide"
                     />
-
                     <Carousel.Caption>
                         <h3>Butan Buddish Mondir</h3>
                         <p>He is historical place</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={image03}
-                        alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Butan Mountaing</h3>
-                        <p>All adventure lover going this place</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

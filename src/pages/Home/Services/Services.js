@@ -26,9 +26,9 @@ const Services = () => {
     }
 
     return (
-        <div className="bg-dark p-5">
-            <h2 className="our-services pt-3 mb-3">Our Services</h2>
-            <Row xs={1} md={3} className="g-4">
+        <div className="bg-dark p-2">
+            <h2 className="our-services pt-3 mb-2">Our Services</h2>
+            <Row xs={1} md={3} lg={3} className="g-4">
                 {
                     services.map(service => <Service
                         key={service.key}
@@ -45,3 +45,4 @@ const Services = () => {
 };
 
 export default Services;
+

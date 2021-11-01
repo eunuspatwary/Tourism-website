@@ -10,10 +10,10 @@ const Footer = () => {
                 <div className='bg-dark text-white text-center mt-4 '>
 
                     <div className="row py-4">
-                        <h3 className="learning">Earth Tourism</h3>
+                        <h3 className="learning">Amazing Tourism</h3>
                         <div className="col-md-3"></div>
                         <div className="col-md-3">
-                            <p>Dev Pahar, Chowkbazar, Chittagong</p>
+                            <p>Dev Pahar, Chowkbazar,Dhaka</p>
                             <p>1234, Mirpur, Dhaka</p>
                         </div>
                         <div className="col-md-3">

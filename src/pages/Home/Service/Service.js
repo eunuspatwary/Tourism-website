@@ -16,7 +16,7 @@ const Service = (props) => {
                         <h4>Time:{time}</h4>
                     </Card.Title>
                     <Card.Text>
-                        <p>Description:{description.slice(0, 180)}</p>
+                        <p>Description:{description.slice(0, 120)}</p>
                         <button
                             onClick={() => props.handleAddToCart(props.service)}
                             className="btn-warning me-2">Booking Now</button>
