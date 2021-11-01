@@ -1,0 +1,10 @@
+#website-name{
+    color: rgb(143, 233, 213);
+    font-size: 30px;
+}
+
+.my-log-out{
+    color: black;
+    background-color: rgb(128, 180, 148);
+    border-radius: 5px;
+}
